@@ -66,7 +66,7 @@ const Page = () => {
                     <p className="text-black font-bold text-xl">
                       ${product.price}
                     </p>
-                    <Button className=" bg-gray-500 text-white py-1 px-3 rounded-lg hover:bg-gray-600 transition">
+                    <Button className=" bg-gray-300 text-white py-1 px-3 rounded-lg hover:bg-gray-600 transition">
                       View Details
                     </Button>
                   </div>
