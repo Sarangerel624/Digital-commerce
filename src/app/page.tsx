@@ -38,9 +38,7 @@ const Page = () => {
     <div>
       <Header />
       <div>
-        <div className="font-black text-center text-4xl text-red">
-          Featured Products see ya
-        </div>
+        <div className="font-black text-center text-4xl">Featured Products</div>
         <div className="text-2xl text-center text-gray-600">
           Check out our most popular items that customers love.
         </div>
@@ -68,7 +66,7 @@ const Page = () => {
                     <p className="text-black font-bold text-xl">
                       ${product.price}
                     </p>
-                    <Button className=" bg-gray-500 text-white py-1 px-3 rounded-lg hover:bg-gray-600 transition">
+                    <Button className=" bg-gray-300 text-white py-1 px-3 rounded-lg hover:bg-gray-600 transition">
                       View Details
                     </Button>
                   </div>
@@ -80,7 +78,7 @@ const Page = () => {
       </div>
       <div className="flex justify-center">
         {" "}
-        <Button className="font-black text-2xl mb-6" onClick={pushToProducts}>
+        <Button className="font-gray text-2xl mb-6" onClick={pushToProducts}>
           View All Products
         </Button>
       </div>
