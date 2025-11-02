@@ -78,7 +78,7 @@ const Page = () => {
       </div>
       <div className="flex justify-center">
         {" "}
-        <Button className="font-black text-2xl mb-6" onClick={pushToProducts}>
+        <Button className="font-gray text-2xl mb-6" onClick={pushToProducts}>
           View All Products
         </Button>
       </div>
