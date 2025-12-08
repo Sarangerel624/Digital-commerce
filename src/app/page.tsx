@@ -38,7 +38,9 @@ const Page = () => {
     <div>
       <Header />
       <div>
-        <div className="font-black text-center text-4xl text-green-500">Featured Products</div>
+        <div className="font-black text-center text-4xl text-gray-900">
+          Featured Products
+        </div>
         <div className="text-2xl text-center text-gray-600">
           Check out our most popular items that customers love.
         </div>
